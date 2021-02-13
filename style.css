@@ -1,13 +1,8 @@
 body {
     margin: 0;
-    background-color: #63838a;
     font-family: 'Abril Fatface', cursive;
-    color: antiquewhite;
+    color: #343a40;
     font-size: 1.2vw;
-}
-
-header {
-    color: antiquewhite;
 }
 
 #logo {
@@ -18,16 +13,12 @@ header {
     margin: 25px 0 25px 0;
 }
 
-#logo:hover {}
-
 .menu {
     font-size: 2vw;
     text-align: center;
     padding: 15px 0 15px 0;
     background-color: #fe5f55;
 }
-
-.nav {}
 
 .menu>li {
     display: inline-block;
@@ -38,7 +29,7 @@ header {
 }
 
 .menu>li:hover {
-    border-color: rgb(185, 181, 175);
+    opacity: 0.8;
 }
 
 .menu>li:first-child {
@@ -48,24 +39,17 @@ header {
 
 li>a {
     text-decoration: none;
-    color: antiquewhite;
+    color: #faebd7;
 }
 
 li>a:hover {
-    color: rgb(185, 181, 175);
-}
-
-.main__content {
-    background-color: ;
+    opacity: 0.8;
 }
 
 .categories {
-    background-color: #77a0a8;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-
-
 }
 
 .author__photo {
@@ -78,11 +62,12 @@ li>a:hover {
 }
 
 .author {
-display: inline-block;
-padding: 0 30px 0 30px;
+    display: inline-block;
+    padding: 0 30px 0 30px;
 }
 
 h1 {
+    margin-top: 30px;
     padding-top: 25px;
     font-size: 1.9vw;
     text-align: center;
@@ -91,7 +76,68 @@ h1 {
 .categories__description {
     padding: 0 15px 0 60px;
 }
+
 figcaption {
     text-align: center;
     padding-top: 15px;
+}
+
+#newest {
+    width: 100%;
+}
+
+.entries {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.entry {
+    width: 100%;
+    margin: 20px auto 20px auto;
+    background-color: #e5e5e5;
+    display: inline-block;
+    height: 200px;
+}
+
+.entry:hover {
+    opacity: 0.8;
+}
+
+.entry__img {
+    float: left;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 23px;
+    padding-top: 15px;
+    color: #b1372f;
+}
+
+.entry__txt>p {
+    font-size: 15px;
+    padding: 0 60px 0 0;
+    text-justify: auto;
+}
+
+.img__blog {
+    width: 120px;
+    height: 150px;
+}
+
+.contact__me>p {
+    font-size: 20px;
+    text-align: center;
+    text-justify: auto;
+}
+
+.contact {
+    background-color: #63838a;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+}
+
+.cat {
+    background-color: #e5e5e5;
 }
