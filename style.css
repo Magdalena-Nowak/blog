@@ -1,13 +1,14 @@
 body {
     margin: 0;
-    background-image: url(./img/img_background.svg);
-    background-repeat: no-repeat;
+    background-color: #63838a;
     font-family: 'Abril Fatface', cursive;
+    color: antiquewhite;
+    font-size: 1.2vw;
 }
 
 header {
     color: antiquewhite;
-} 
+}
 
 #logo {
     font-size: 4vw;
@@ -17,23 +18,18 @@ header {
     margin: 25px 0 25px 0;
 }
 
-#logo:hover {
-   
-}
+#logo:hover {}
 
 .menu {
-font-size: 2vw;
-text-align: center;
-background-color: #042A5D;
-padding: 15px 0 15px 0;
-
+    font-size: 2vw;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    background-color: #fe5f55;
 }
 
-.nav {
-    
-}
+.nav {}
 
-.menu > li {
+.menu>li {
     display: inline-block;
     list-style: none;
     margin: 20px;
@@ -41,11 +37,61 @@ padding: 15px 0 15px 0;
     padding-right: 3vh;
 }
 
-li > a {
+.menu>li:hover {
+    border-color: rgb(185, 181, 175);
+}
+
+.menu>li:first-child {
+    border-left: solid 2px antiquewhite;
+    padding-left: 3vh;
+}
+
+li>a {
     text-decoration: none;
     color: antiquewhite;
 }
-li > a:hover {
+
+li>a:hover {
     color: rgb(185, 181, 175);
-    border-color: rgb(185, 181, 175);
+}
+
+.main__content {
+    background-color: ;
+}
+
+.categories {
+    background-color: #77a0a8;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.author__photo {
+    width: 18vw;
+    height: 25vh;
+}
+
+.author__photo:hover {
+    opacity: 0.8;
+}
+
+.author {
+display: inline-block;
+padding: 0 30px 0 30px;
+}
+
+h1 {
+    padding-top: 25px;
+    font-size: 1.9vw;
+    text-align: center;
+}
+
+.categories__description {
+    padding: 0 15px 0 60px;
+}
+figcaption {
+    text-align: center;
+    padding-top: 15px;
 }
