@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-image: url(./img/img_background.svg);
+    background-repeat: no-repeat;
+    font-family: 'Abril Fatface', cursive;
+}
+
+header {
+    color: antiquewhite;
+} 
+
+#logo {
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 0.8vw;
+    margin: 25px 0 25px 0;
+}
+
+#logo:hover {
+   
+}
+
+.menu {
+font-size: 2vw;
+text-align: center;
+background-color: #042A5D;
+padding: 15px 0 15px 0;
+
+}
+
+.nav {
+    
+}
+
+.menu > li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+    border-right: solid 2px antiquewhite;
+    padding-right: 3vh;
+}
+
+li > a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+li > a:hover {
+    color: rgb(185, 181, 175);
+    border-color: rgb(185, 181, 175);
+}
